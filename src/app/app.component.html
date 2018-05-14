@@ -1,0 +1,25 @@
+<div class="container">
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top ">
+        <div class="container">
+            <div class=navbar-header>
+
+                <button type="button" class="navbar-toggle" data-target="#col" data-toggle="collapse">
+                 <span class="icon-bar">  </span>
+                 <span class="icon-bar">  </span>
+                 <span class="icon-bar">  </span>
+              </button>
+            </div>
+            <div class=" navbar-collapse collapse" id="col">
+                <ul class="nav navbar-nav">
+                    <li><a routerLink="/app-home" routerLinkActive="active" class="navmenu ">Home</a></li>
+                    <li><a routerLink="/app-inbox" routerLinkActive="active" class="navmenu">Inbox</a></li>
+                    <li><a routerLink="/app-alert" routerLinkActive="active" class="navmenu">Alert</a></li>
+                    <li><a routerLink="/app-notificationcenter" routerLinkActive="active" class="navmenu">Notification Center</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <app-alert></app-alert> -->
+    <router-outlet></router-outlet>
+    <!-- Routed views go here -->
